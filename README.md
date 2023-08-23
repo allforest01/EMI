@@ -1,15 +1,15 @@
-# Python Discord Bot
-
-This is a starting point for making your own Discord bot using Python and the [discordpy](https://discordpy.readthedocs.io/) library.
-Read [their getting-started guides](https://discordpy.readthedocs.io/en/stable/#getting-started) to get the most out of this template.
-
-## Getting Started
-
-To get set up, you'll need to follow [these bot account setup instructions](https://discordpy.readthedocs.io/en/stable/discord.html),
-and then copy the token for your bot and added it as a secret with the key of `TOKEN` in the "Secrets (Environment variables)" panel.
-
-## FAQ
-
-If you get the following error message while trying to start the server: `429 Too Many Requests` (accompanied by a lot of HTML code), 
-try the advice given in this Stackoverflow question:
-https://stackoverflow.com/questions/66724687/in-discord-py-how-to-solve-the-error-for-toomanyrequests
+# EMI
+I have developed this Discord bot to oversee the OI training for the underclassmen in the computer science team at my high school.
+Functions of EMI:
+```
+ping                                    pong!
+leaderboard                             is the leaderboard
+eagle_view                              is the eagle's view
+add_problem $problem_id $problem_url    add problem
+get_problem $problem_id                 get problem url
+add_user $user_id $user_name            add user
+solved $user_id $problem_id $pastebin   add solved problem
+solution $problem_id $user_id           get solution
+solved_of $problem_id                   list of people who solved a problem
+solved_by $user_id                      list of problems solved by a person
+```
